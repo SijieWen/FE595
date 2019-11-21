@@ -1,8 +1,8 @@
 import numpy as np 
 import matplotlib.pyplot as plt
 
-x = np.linspace(0, 2*np.pi, 1000)
-def trigonometric(x):
+def trigonometric():
+    x = np.linspace(0, 2*np.pi, 1000)
     y1 = np.sin(x)
     plt.plot(x, y1, label="$sin(x)$")
     y2 = np.cos(x)
@@ -16,4 +16,4 @@ def trigonometric(x):
     plt.show()
 
 if __name__ == '__main__':
-    trigonometric(x)
+    trigonometric()
